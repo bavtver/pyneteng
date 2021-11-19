@@ -15,3 +15,13 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
+"""
+mac2 = mac.replace(':', '.')
+print(mac2)
+"""
+
+list_mac = list(mac)
+list_mac[4] = '.'
+list_mac[9] = '.'
+mac1 = ''.join(list_mac)
+print(mac1)
